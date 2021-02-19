@@ -10,7 +10,7 @@ public partial class _Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        Response.Write("Size: " + GetDirSizeInMB("Empty Folder") + " MB");
+        Response.Write("Size: " + GetDirSizeInMB("Folder1") + " MB");
         Response.Write("<br/> Size: " + GetDirSizeInMB("Products/ProductList1") + " MB");
         Response.Write("<br/> Size: " + GetDirSizeInMB("Products") + " MB");
     }
